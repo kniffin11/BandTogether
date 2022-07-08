@@ -1,0 +1,16 @@
+.nav{
+    padding: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.rightside{
+    justify-content: flex-end;
+}
+
+a{
+    margin-right: 10px;
+}
+
+/* disclaimer, i didn't put much time in making it look the best, just some things here and there to not look as awkward */
