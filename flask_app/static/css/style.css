@@ -1,0 +1,79 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+/* Nav CSS */
+
+nav{
+    /* image start */
+    background-image:url('./images/retro-electric-guitar-banner-image-wood-background-copy-space-154929991.jpg');
+    /* background-position: 100% 200px; */
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    height: 300px;
+    /* image end */
+
+    /* content start */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    padding-left: 10%;
+    /* content end */
+}
+
+nav h1{
+    font-size:350%;
+}
+
+#userPageNav{
+    font-size:475%;
+}
+
+/* Nav ends */
+/* Body and Form CSS */
+
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+a:hover{
+    color: rgb(129, 129, 131) !important;
+}
+
+
+.body{
+    background-color: rgb(227, 227, 228);
+}
+
+.body-user{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.forms {
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 320px; 
+    flex-direction: column;
+}
+
+.forms-big {
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    padding: 10px;
+    max-width: 450px; 
+    flex-direction: column;
+    
+}
+
+/* Body ends */
